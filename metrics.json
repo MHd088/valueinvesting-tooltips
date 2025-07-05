@@ -153,5 +153,90 @@
     "name": "Margin of Safety",
     "description": "Відсоткова різниця між справедливою ціною та поточною ціною. Вказує на запас безпеки інвестиції.",
     "optimal": ">20% — добрий рівень безпеки."
+  },
+  "Fair Value Price": {
+    "name": "Fair Value Price",
+    "description": "Оцінена внутрішня вартість акції за моделлю дисконтованих потоків або іншими фінансовими методами.",
+    "optimal": "Ціна нижче справедливої вартості — потенційно вигідна покупка."
+  },
+  "YTD Return": {
+    "name": "Year-to-Date Return",
+    "description": "Загальна прибутковість акцій від початку поточного календарного року.",
+    "optimal": ">0% — зростання з початку року."
+  },
+  "Fair Value Price (FCF)": {
+    "name": "Fair Value Price (Free Cash Flow)",
+    "description": "Оцінка вартості компанії на основі дисконтованих вільних грошових потоків.",
+    "optimal": "Ціна акції < справедливої вартості — потенційно недооцінено."
+  },
+  "Fair Value Price (EPS)": {
+    "name": "Fair Value Price (EPS)",
+    "description": "Оцінка акції на основі прогнозованого EPS та цільового P/E.",
+    "optimal": "Ціна < оцінки — потенційно вигідно."
+  },
+  "TTM Return": {
+    "name": "Trailing Twelve Month Return",
+    "description": "Прибутковість акцій за останні 12 місяців.",
+    "optimal": ">0% — позитивна динаміка."
+  },
+  "CAGR TTM": {
+    "name": "Compound Annual Growth Rate (TTM)",
+    "description": "Середній річний темп зростання показника за останні 12 місяців.",
+    "optimal": ">10% — стабільне зростання."
+  },
+  "Revenue TTM": {
+    "name": "Revenue (TTM)",
+    "description": "Загальна виручка компанії за останні 12 місяців.",
+    "optimal": "Зростання TTM виручки — позитивний сигнал."
+  },
+  "Revenue CAGR 3Y": {
+    "name": "Revenue CAGR (3Y)",
+    "description": "Середній річний темп зростання виручки за 3 роки.",
+    "optimal": ">10% — добрий показник росту."
+  },
+  "PE Ratio Avg 3Y": {
+    "name": "Average PE Ratio (3Y)",
+    "description": "Середнє значення P/E за останні 3 роки.",
+    "optimal": "Порівняння з поточним P/E дає уявлення про переоцінку або недооцінку."
+  },
+  "PFCF Ratio": {
+    "name": "Price to Free Cash Flow Ratio (P/FCF)",
+    "description": "Оцінює, скільки інвестори платять за $1 вільного грошового потоку.",
+    "optimal": "<15 — вважається привабливим."
+  },
+  "PFCF Ratio Avg 3Y": {
+    "name": "Average PFCF Ratio (3Y)",
+    "description": "Середнє значення P/FCF за останні 3 роки.",
+    "optimal": "Низьке середнє значення — позитивний сигнал."
+  },
+  "PEG Ratio Avg TTM": {
+    "name": "Average PEG Ratio (TTM)",
+    "description": "Середнє значення PEG за останні 12 місяців.",
+    "optimal": "<1 — привабливо."
+  },
+  "FCF Yield Avg TTM": {
+    "name": "Average Free Cash Flow Yield (TTM)",
+    "description": "Середній рівень FCF Yield за останній рік.",
+    "optimal": ">5% — добрий показник."
+  },
+  "EV/EBIT Ratio": {
+    "name": "EV to EBIT Ratio",
+    "description": "Оцінка компанії щодо операційного прибутку до сплати податків та процентів.",
+    "optimal": "<10 — може бути недооціненою."
+  },
+  "EV/EBITDA Ratio Avg TTM": {
+    "name": "Average EV/EBITDA Ratio (TTM)",
+    "description": "Середній показник EV/EBITDA за останні 12 місяців.",
+    "optimal": "<10 — вважається сприятливим значенням."
+  },
+  "Current VS 3Y Avg": {
+    "name": "Current vs 3Y Average",
+    "description": "Порівняння поточного значення метрики зі середнім за 3 роки.",
+    "optimal": "Використовується для виявлення відхилень і трендів."
+  },
+  "EV/Sales Ratio": {
+    "name": "EV to Sales Ratio",
+    "description": "Показник оцінки компанії відносно її виручки.",
+    "optimal": "<2 — можлива недооцінка; >5 — можлива переоцінка."
   }
 }
